@@ -40,7 +40,7 @@
         }
         // Function to set the category ID
         function setEmail(email) {
-            sharedData.email =emailid;
+            sharedData.email =email;
         }
         // Function to set the category ID
         function setPhone(phone) {
@@ -62,8 +62,8 @@
 <script type="text/javascript">
     var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/aicreations.simplybook.it","theme":"skittish","theme_settings":{"timeline_hide_unavailable":"1","hide_past_days":"0","timeline_show_end_time":"0","timeline_modern_display":"as_table","sb_base_color":"#49306b","display_item_mode":"block","body_bg_color":"#fffaf5","sb_review_image":"","dark_font_color":"#474747","light_font_color":"#ffffff","btn_color_1":"#c98e5a","sb_company_label_color":"#372515","hide_img_mode":"0","sb_busy":"#c7b3b3","sb_available":"#d6ebff"},"timeline":"modern","datepicker":"inline_datepicker","is_rtl":false,"app_config":{"clear_session":1,"allow_switch_to_ada":0,"predefined":{"service":"6","client": {
 "name": sharedData.name,
-"email": "mary@gmail.com",
-"phone": "+1234567890"
+"email": sharedData.email,
+"phone": sharedData.phone
 }}}});
 </script>
 </body>
